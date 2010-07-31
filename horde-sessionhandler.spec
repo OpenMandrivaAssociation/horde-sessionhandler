@@ -5,7 +5,7 @@
 
 Name:          horde-sessionhandler
 Version:       0.0.3
-Release:       %mkrel 2
+Release:       %mkrel 3
 Summary:       Horde Session Storage API
 License:       LGPL
 Group:         Networking/Mail
@@ -18,7 +18,7 @@ Requires:      php-pear
 Requires:      php-pear-channel-horde
 BuildRequires: php-pear
 BuildRequires: php-pear-channel-horde
-BuildRoot:     %{_tmppath}/%{name}-%{version}
+
 
 %description
 The Horde_SessionObjects:: class provides a way for storing data (usually,
