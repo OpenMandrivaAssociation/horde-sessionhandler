@@ -64,3 +64,22 @@ fi
 %{peardir}/Horde/SessionHandler/sapdb.php
 %{peardir}/Horde/SessionHandler/sql.php
 
+
+
+%changelog
+* Sat Jul 31 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.3-3mdv2011.0
++ Revision: 564098
+- Increased release for rebuild
+
+* Wed Mar 17 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.3-2mdv2010.1
++ Revision: 523031
+- replaced Requires(pre): %%{_bindir}/pear with Requires(pre): php-pear
+  increased releas version
+
+* Sat Feb 27 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.3-1mdv2010.1
++ Revision: 512491
+- added Requires:      php-pear-channel-horde
+- removed BuildRequires: horde-framework
+- import horde-sessionhandler
+
+
