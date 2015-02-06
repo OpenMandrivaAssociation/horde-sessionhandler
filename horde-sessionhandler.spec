@@ -5,7 +5,7 @@
 
 Name:          horde-sessionhandler
 Version:       0.0.3
-Release:       %mkrel 3
+Release:       4
 Summary:       Horde Session Storage API
 License:       LGPL
 Group:         Networking/Mail
